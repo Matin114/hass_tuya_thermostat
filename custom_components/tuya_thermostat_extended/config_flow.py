@@ -27,7 +27,7 @@ from .const import (
 )
 
 
-class TuyaConfigFlow(ConfigFlow, domain=DOMAIN):
+class TuyaThermostatExtendedConfigFlow(ConfigFlow, domain=DOMAIN):
     """Tuya config flow."""
 
     __user_code: str
