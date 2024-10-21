@@ -5,6 +5,7 @@ on:  # yamllint disable-line rule:truthy
     branches:
       - main
   pull_request:
+  workflow_dispatch:
 
 jobs:
   validate:
