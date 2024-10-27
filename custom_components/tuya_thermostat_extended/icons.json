@@ -96,10 +96,10 @@
         "default": "mdi:snowflake-thermometer"
       },
       "upper_temp": {
-        "default": "mdi:sun-thermometer-outline"
+        "default": "mdi:sun-thermometer"
       },
       "temp_correction": {
-        "default": "mdi:sun-thermometer-outline"
+        "default": "mdi:thermometer-lines"
       }
     },
     "select": {
