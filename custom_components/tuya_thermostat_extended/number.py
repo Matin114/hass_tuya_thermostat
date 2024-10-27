@@ -289,19 +289,19 @@ NUMBERS: dict[str, tuple[NumberEntityDescription, ...]] = {
     "wk": (
         NumberEntityDescription(
             key=DPCode.LOWER_TEMP,
-            translation_key="temperature",
+            translation_key=DPCode.LOWER_TEMP,
             device_class=NumberDeviceClass.TEMPERATURE,
             entity_category=EntityCategory.CONFIG,
         ),
         NumberEntityDescription(
             key=DPCode.UPPER_TEMP,
-            translation_key="temperature",
+            translation_key=DPCode.UPPER_TEMP,
             device_class=NumberDeviceClass.TEMPERATURE,
             entity_category=EntityCategory.CONFIG,
         ),
         NumberEntityDescription(
             key=DPCode.TEMP_CORRECTION,
-            translation_key="temperature",
+            translation_key=DPCode.TEMP_CORRECTION,
             device_class=NumberDeviceClass.TEMPERATURE,
             entity_category=EntityCategory.CONFIG,
         ),

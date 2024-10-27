@@ -380,6 +380,7 @@ class DPCode(StrEnum):
     #custom added
     LOWER_TEMP = "lower_temp"
     TEMP_CORRECTION = "temp_correction"
+    FROST = "frost"
 
 @dataclass
 class UnitOfMeasurement:

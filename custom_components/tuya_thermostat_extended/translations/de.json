@@ -3,10 +3,24 @@
        "switch": {
           "child_lock": {
              "name": "Kindersicherung"
+          },
+          "frost": {
+             "name": "Anit-Frost"
           }
        },
        "number": {
-            "temperature": "Temperatur"
+            "temperature": {
+                "name":  "Temperatur"
+            },
+            "lower_temp": {
+                "name":  "Min Temperatur"
+            },
+            "upper_temp": {
+                "name":  "Max Temperatur"
+            },
+            "temp_correction": {
+                "name":  "Temperatur Abweichung"
+            }
        }
     }
  }

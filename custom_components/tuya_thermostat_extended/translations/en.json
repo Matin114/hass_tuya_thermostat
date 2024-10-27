@@ -193,6 +193,15 @@
       },
       "down_delay": {
         "name": "Down delay"
+      },
+      "lower_temp": {
+          "name":  "Min Temperature"
+      },
+      "upper_temp": {
+          "name":  "Max Temperature"
+      },
+      "temp_correction": {
+          "name":  "Temperature calibration"
       }
     },
     "select": {
@@ -843,6 +852,9 @@
       },
       "sterilization": {
         "name": "Sterilization"
+      },
+      "frost": {
+         "name": "Anit-frost"
       }
     }
   }
