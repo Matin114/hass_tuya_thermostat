@@ -377,6 +377,9 @@ class DPCode(StrEnum):
     WORK_MODE = "work_mode"  # Working mode
     WORK_POWER = "work_power"
 
+    #custom added
+    LOWER_TEMP = "lower_temp"
+    TEMP_CORRECTION = "temp_correction"
 
 @dataclass
 class UnitOfMeasurement:

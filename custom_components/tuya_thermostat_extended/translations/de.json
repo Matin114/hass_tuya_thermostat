@@ -1,0 +1,12 @@
+{
+    "entity": {
+       "switch": {
+          "child_lock": {
+             "name": "Kindersicherung"
+          }
+       },
+       "number": {
+            "temperature": "Temperatur"
+       }
+    }
+ }
