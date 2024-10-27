@@ -213,9 +213,11 @@ class TuyaClimateEntity(TuyaEntity, ClimateEntity):
                 if tuya_mode in TUYA_HVAC_TO_HA:
                     ha_mode = TUYA_HVAC_TO_HA[tuya_mode]
                     self._hvac_to_tuya[ha_mode] = tuya_mode
-                    self._attr_hvac_modes.append(ha_mode)
+                    if ha_mode not in self._attr_hvac_modes:
+                        self._attr_hvac_modes.append(ha_mode)
                 else:
-                    unknown_hvac_modes.append(tuya_mode)
+                    if ha_mode not in unknown_hvac_modes:
+                        unknown_hvac_modes.append(tuya_mode)
 
             if unknown_hvac_modes:  # Tuya modes are presets instead of hvac_modes
                 self._attr_hvac_modes.append(description.switch_only_hvac_mode)
@@ -283,10 +285,10 @@ class TuyaClimateEntity(TuyaEntity, ClimateEntity):
     def set_hvac_mode(self, hvac_mode: HVACMode) -> None:
         """Set new target hvac mode."""
         commands = [{"code": DPCode.SWITCH, "value": hvac_mode != HVACMode.OFF}]
-        if hvac_mode in self._hvac_to_tuya:
-            commands.append(
-                {"code": DPCode.MODE, "value": self._hvac_to_tuya[hvac_mode]}
-            )
+        # if hvac_mode in self._hvac_to_tuya:
+        #     commands.append(
+        #         {"code": DPCode.MODE, "value": self._hvac_to_tuya[hvac_mode]}
+        #     )
         self._send_command(commands)
 
     def set_preset_mode(self, preset_mode):

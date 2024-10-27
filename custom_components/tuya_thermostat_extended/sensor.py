@@ -639,7 +639,6 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
         TuyaSensorEntityDescription(
             key=DPCode.VALVE_STATE,
             translation_key=DPCode.VALVE_STATE,
-            state_class=SensorStateClass.MEASUREMENT,
         ),
     ),
     # Thermostatic Radiator Valve
