@@ -381,6 +381,7 @@ class DPCode(StrEnum):
     LOWER_TEMP = "lower_temp"
     TEMP_CORRECTION = "temp_correction"
     FROST = "frost"
+    VALVE_STATE = "valve_state"
 
 @dataclass
 class UnitOfMeasurement:

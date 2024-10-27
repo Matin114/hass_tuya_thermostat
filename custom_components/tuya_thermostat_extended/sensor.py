@@ -635,6 +635,13 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
         ),
         *BATTERY_SENSORS,
     ),
+    "wk": (
+        TuyaSensorEntityDescription(
+            key=DPCode.VALVE_STATE,
+            translation_key=DPCode.VALVE_STATE,
+            state_class=SensorStateClass.MEASUREMENT,
+        ),
+    ),
     # Thermostatic Radiator Valve
     # Not documented
     "wkf": BATTERY_SENSORS,

@@ -91,6 +91,15 @@
       },
       "temperature": {
         "default": "mdi:thermometer"
+      },
+      "lower_temp": {
+        "default": "mdi:snowflake-thermometer"
+      },
+      "upper_temp": {
+        "default": "mdi:sun-thermometer-outline"
+      },
+      "temp_correction": {
+        "default": "mdi:sun-thermometer-outline"
       }
     },
     "select": {
@@ -239,6 +248,9 @@
       },
       "air_quality_index": {
         "default": "mdi:air-filter"
+      },
+      "valve_state": {
+        "default": "mdi:pipe-valve"
       }
     },
     "switch": {
@@ -370,6 +382,9 @@
       },
       "sterilization": {
         "default": "mdi:minus-circle-outline"
+      },
+      "frost": {
+        "default": "mdi:snowflake-alert"
       }
     }
   }

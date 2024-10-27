@@ -195,13 +195,13 @@
         "name": "Down delay"
       },
       "lower_temp": {
-          "name":  "Min Temperature"
+        "name": "Min Temperature"
       },
       "upper_temp": {
-          "name":  "Max Temperature"
+        "name": "Max Temperature"
       },
       "temp_correction": {
-          "name":  "Temperature calibration"
+        "name": "Temperature calibration"
       }
     },
     "select": {
@@ -643,6 +643,13 @@
           "level_5": "Level 5",
           "level_6": "Level 6"
         }
+      },
+      "valve_state": {
+        "name": "Valve state",
+        "state": {
+          "open": "open",
+          "close": "close"
+        }
       }
     },
     "switch": {
@@ -854,7 +861,7 @@
         "name": "Sterilization"
       },
       "frost": {
-         "name": "Anit-frost"
+        "name": "Anit-frost"
       }
     }
   }
