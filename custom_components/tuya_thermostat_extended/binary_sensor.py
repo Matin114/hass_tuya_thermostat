@@ -313,6 +313,7 @@ BINARY_SENSORS: dict[DeviceCategory, tuple[TuyaBinarySensorEntityDescription, ..
             key=DPCode.VALVE_STATE,
             translation_key="valve",
             on_value="open",
+            device_class=BinarySensorDeviceClass.OPENING
         ),
     ),
     DeviceCategory.WKF: (
