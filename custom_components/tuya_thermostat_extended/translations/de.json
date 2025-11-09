@@ -535,6 +535,13 @@
 			},
 			"voc": {
 				"name": "VOCs"
+			},
+			"valve": {
+				"name": "Ventil",
+				"state": {
+					"open": "offen",
+					"close": "geschlossen"
+				}
 			}
 		},
 		"button": {

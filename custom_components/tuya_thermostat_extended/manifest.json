@@ -42,7 +42,7 @@
   "documentation": "https://github.com/Matin114/hass_tuya_thermostat",
   "iot_class": "cloud_push",
   "issue_tracker": "https://github.com/Matin114/hass_tuya_thermostat/issues",
-  "loggers": ["tuya_iot"],
-  "requirements": ["tuya-device-sharing-sdk==0.1.9"],
+  "loggers": ["tuya_sharing"],
+  "requirements": ["tuya-device-sharing-sdk==0.2.5"],
   "version": "1.0.0"
 }
