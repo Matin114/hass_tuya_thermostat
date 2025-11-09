@@ -56,7 +56,14 @@
       },
       "tilt": {
         "name": "Tilt"
-      }
+      },
+			"valve": {
+				"name": "Valve",
+				"state": {
+					"open": "open",
+					"close": "closed"
+				}
+			}
     },
     "button": {
       "reset_duster_cloth": {

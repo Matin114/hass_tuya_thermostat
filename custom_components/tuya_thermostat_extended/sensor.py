@@ -1245,12 +1245,6 @@ SENSORS: dict[DeviceCategory, tuple[TuyaSensorEntityDescription, ...]] = {
         ),
         *BATTERY_SENSORS,
     ),
-    DeviceCategory.WK: (
-        TuyaSensorEntityDescription(
-            key=DPCode.VALVE_STATE,
-            translation_key=DPCode.VALVE_STATE,
-        ),
-    ),
     DeviceCategory.WKCZ: (
         TuyaSensorEntityDescription(
             key=DPCode.HUMIDITY_VALUE,

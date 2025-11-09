@@ -94,7 +94,7 @@
       },
       "water_level": {
         "default": "mdi:cup-water"
-      }
+      },
       "lower_temp": {
         "default": "mdi:snowflake-thermometer"
       },
